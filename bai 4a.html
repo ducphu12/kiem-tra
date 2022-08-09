@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="number" id="numinput">
+
+<button type="button" onclick="cal()">Tính toán</button>
+
+<p id="result2"></p>
+<script>
+    function cal(){
+        let b = document.getElementById('numinput').value
+        document.getElementById('result2').innerHTML = ('Chu vi của hình vuông là ' +(b*4) + ' và diện tích là ' +(b*b) )
+    }
+</script>
+</body>
+</html>
